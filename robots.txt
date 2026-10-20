@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fisioterapia-consulta.dokuline.com/sitemap.xml
