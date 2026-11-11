@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Para fisioterapeutas con consulta privada en España: historia clínica de cada paciente, agenda de citas y facturas Verifactu en un solo lugar.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">FisioNota</a></div>
-  <nav class="top"><a href="#que" data-ev="click_nav_que">Qué obtienes</a><a href="price.html" data-ev="click_nav_precio">Precio</a><a href="#ejemplo" data-ev="click_nav_ejemplo">Ejemplo</a><a href="#start" data-ev="click_nav_start">Empezar</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">FisioNota</a>
+  <nav><a href="#que" data-ev="click_nav_que">Qué obtienes</a><a href="price.html" data-ev="click_nav_precio">Precio</a><a href="#ejemplo" data-ev="click_nav_ejemplo">Ejemplo</a><a href="#start" data-ev="click_nav_start">Empezar</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Tu consulta de fisioterapia en orden — historia clínica, agenda y facturas Verifactu</h1>
-    <p class="sub">Para fisioterapeutas que trabajan por su cuenta o en una consulta pequeña: anotas cada sesión en la historia del paciente, gestionas las citas en un calendario y emites facturas y recibos que cumplen Verifactu.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Lo necesito</a>
-    <p class="cta-note">Acceso anticipado · En esta página aún no se acepta ningún pago</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Para fisioterapeutas autónomos</p>
+      <h1 class="rise" style="--i:1" data-len="long">Tu consulta de fisioterapia en orden&nbsp;<span class="soft">— historia clínica, agenda y facturas Verifactu</span></h1>
+      <p class="rise" style="--i:2">Para fisioterapeutas que trabajan por su cuenta o en una consulta pequeña: anotas cada sesión en la historia del paciente, gestionas las citas en un calendario y emites facturas y recibos que cumplen Verifactu.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Lo necesito</a>
+      <p class="meta rise" style="--i:4">Acceso anticipado · En esta página aún no se acepta ningún pago</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="165" font-size="40" font-weight="600" fill="#0a1524">FisioNota</text><line x1="120" y1="205" x2="1080" y2="205" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="250" width="48" height="48" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><text x="196" y="284" font-size="32" font-weight="600" fill="#0a1524">Historia clínica</text><rect x="120" y="360" width="48" height="48" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><text x="196" y="394" font-size="32" font-weight="600" fill="#0a1524">Agenda de citas</text><rect x="120" y="470" width="48" height="48" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><text x="196" y="504" font-size="32" font-weight="600" fill="#0a1524">Facturas Verifactu</text><rect x="720" y="250" width="360" height="410" rx="20" fill="#dfe8f7" /><text x="748" y="310" font-size="32" font-weight="600" fill="#0a1524">Verifactu</text><rect x="748" y="470" width="52" height="150" rx="8" fill="#ffffff" stroke="#b9c3d2" stroke-width="2" /><rect x="826" y="410" width="52" height="210" rx="8" fill="#12397a" /><rect x="904" y="510" width="52" height="110" rx="8" fill="#ffffff" stroke="#b9c3d2" stroke-width="2" /><rect x="982" y="440" width="52" height="180" rx="8" fill="#ffffff" stroke="#b9c3d2" stroke-width="2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Para</dt><dd>Fisioterapeutas autónomos</dd></div>
+      <div><dt>Historia</dt><dd>Historia clínica</dd></div>
+      <div><dt>Agenda</dt><dd>Agenda de citas</dd></div>
+      <div><dt>Acceso</dt><dd>Acceso anticipado</dd></div>
+    </dl>
+  </section>
 
   <section id="que" data-view="features_view">
-    <h2>Qué obtienes</h2>
-    <div class="grid">
-      <div class="card"><b>Historia clínica</b><span>Valoración, tratamiento y evolución de cada paciente.</span><br><a class="btn" href="price.html" data-ev="feature_historia">Lo necesito</a></div>
-      <div class="card"><b>Agenda de citas</b><span>Calendario de la consulta con recordatorio al paciente.</span><br><a class="btn" href="price.html" data-ev="feature_agenda">Lo necesito</a></div>
-      <div class="card"><b>Facturas Verifactu</b><span>Recibos, facturas y rectificativas.</span><br><a class="btn" href="price.html" data-ev="feature_facturas">Lo necesito</a></div>
-      <div class="card"><b>Bonos de sesiones</b><span>Sesiones usadas y pendientes de cada bono.</span><br><a class="btn" href="price.html" data-ev="feature_bonos">Lo necesito</a></div>
+    <div class="stack"><h2>Qué obtienes</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="50" width="660" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="130" font-size="36" font-weight="600" fill="#0a1524">Valoración</text><rect x="140" y="200" width="340" height="26" rx="8" fill="#dde2ea" /><rect x="140" y="270" width="260" height="26" rx="8" fill="#b9c3d2" /><rect x="140" y="340" width="400" height="26" rx="8" fill="#dde2ea" /><rect x="140" y="410" width="220" height="26" rx="8" fill="#dfe8f7" /><circle cx="600" cy="430" r="46" fill="#dfe8f7" /><polyline points="576,430 594,450 628,408" fill="none" stroke="#12397a" stroke-width="8" stroke-linecap="round" /></svg></div>
+        <h3>Historia clínica</h3><p>Valoración, tratamiento y evolución de cada paciente.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_historia">Lo necesito</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="50" width="660" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="130" font-size="36" font-weight="600" fill="#0a1524">Calendario</text><rect x="130" y="200" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="270" y="200" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="410" y="200" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="550" y="200" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="130" y="300" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="270" y="300" width="110" height="72" rx="10" fill="#12397a" /><rect x="410" y="300" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="550" y="300" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="130" y="400" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="270" y="400" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="410" y="400" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="550" y="400" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /></svg></div>
+        <h3>Agenda de citas</h3><p>Calendario de la consulta con recordatorio al paciente.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_agenda">Lo necesito</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="48" width="680" height="504" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Recibos</text><rect x="100" y="180" width="200" height="300" rx="14" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="500" y="180" width="200" height="300" rx="14" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><path d="M320 330 H470" fill="none" stroke="#12397a" stroke-width="6" /><polygon points="470,316 498,330 470,344" fill="#12397a" /><rect x="124" y="220" width="150" height="20" rx="6" fill="#dde2ea" /><rect x="124" y="260" width="110" height="20" rx="6" fill="#b9c3d2" /><rect x="124" y="300" width="140" height="20" rx="6" fill="#dde2ea" /><rect x="524" y="220" width="150" height="20" rx="6" fill="#ffffff" /><rect x="524" y="260" width="90" height="20" rx="6" fill="#b9c3d2" /></svg></div>
+        <h3>Facturas Verifactu</h3><p>Recibos, facturas y rectificativas.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_facturas">Lo necesito</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="50" width="660" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="130" font-size="36" font-weight="600" fill="#0a1524">Sesiones usadas</text><rect x="130" y="210" width="420" height="52" rx="26" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="130" y="300" width="300" height="52" rx="26" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="130" y="390" width="480" height="52" rx="26" fill="#12397a" /><rect x="130" y="480" width="240" height="52" rx="26" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /></svg></div>
+        <h3>Bonos de sesiones</h3><p>Sesiones usadas y pendientes de cada bono.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_bonos">Lo necesito</a>
+      </article>
     </div>
   </section>
 
-  <section id="ejemplo" data-view="example_view">
-    <h2>Ejemplo (datos ficticios)</h2>
-    <p class="fine">Una fisioterapeuta de Valencia trabaja sola en una consulta alquilada. Llevaba las historias en papel, la agenda en el móvil y las facturas en una hoja de cálculo. Ahora, al terminar cada sesión, anota la evolución en la historia del paciente, la siguiente cita queda en el calendario y la factura sale con un clic, lista para Verifactu.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Ver el precio</a>
+  <section id="ejemplo" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Ejemplo</h2>
+      <p>Una fisioterapeuta de Valencia trabaja sola en una consulta alquilada. Llevaba las historias en papel, la agenda en el móvil y las facturas en una hoja de cálculo. Ahora, al terminar cada sesión, anota la evolución en la historia del paciente, la siguiente cita queda en el calendario y la factura sale con un clic, lista para Verifactu.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Ver el precio</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="160" x2="1000" y2="160" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="240" font-size="30" font-weight="600" fill="#0a1524" text-anchor="middle">Valencia</text><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="240" font-size="30" font-weight="600" fill="#0a1524" text-anchor="middle">sesión</text><circle cx="960" cy="160" r="22" fill="#12397a" /><text x="960" y="240" font-size="30" font-weight="600" fill="#0a1524" text-anchor="middle">calendario</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="380" font-size="36" font-weight="600" fill="#0a1524">lista para Verifactu</text><rect x="170" y="440" width="280" height="28" rx="8" fill="#dde2ea" /><rect x="170" y="510" width="460" height="28" rx="8" fill="#dfe8f7" /><rect x="170" y="580" width="200" height="28" rx="8" fill="#b9c3d2" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Cómo funciona</h2>
-    <p>Un fisioterapeuta con consulta privada lleva tres cosas a la vez: la historia clínica de cada paciente, la agenda de citas y la facturación. A menudo cada una vive en un sitio distinto — papel, móvil y hoja de cálculo — y pasar de una a otra quita tiempo a la consulta.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Cómo funciona</h2></div>
+    <div class="stack">
+      <p>Un fisioterapeuta con consulta privada lleva tres cosas a la vez: la historia clínica de cada paciente, la agenda de citas y la facturación. A menudo cada una vive en un sitio distinto — papel, móvil y hoja de cálculo — y pasar de una a otra quita tiempo a la consulta.</p>
     <p>FisioNota junta las tres. Las respuestas a las preguntas frecuentes están en la sección de <a href="#faq" data-ev="click_opis_faq">preguntas</a>, y puedes mostrar tu interés <a href="#start" data-ev="click_opis_start">al final de la página</a>.</p>
     <p>Para cada paciente se abre una historia clínica: motivo de consulta, valoración inicial, tratamiento aplicado en cada sesión y evolución. Al volver el paciente, ves de un vistazo qué se hizo la última vez.</p>
     <p>La agenda muestra las citas del día y de la semana. El paciente recibe un recordatorio antes de la cita, y si cancela, el hueco queda libre para otra persona.</p>
@@ -119,31 +153,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Cuando un paciente pide un justificante de asistencia o una copia de su factura, se genera desde su ficha en un momento, sin buscar en la hoja de cálculo ni rehacer el documento.</p>
     <p>Para empezar basta con dar de alta a un profesional y a tus pacientes de esta semana.</p>
     <p>FisioNota organiza la historia, la agenda y las facturas; el diagnóstico, el tratamiento y las obligaciones fiscales siguen siendo del profesional.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Preguntas frecuentes</h2>
-    <h3>¿Qué incluye FisioNota?</h3>
-    <p>Historia clínica de cada paciente, agenda de citas con recordatorios y facturas y recibos Verifactu.</p>
-    <h3>¿Las facturas cumplen Verifactu?</h3>
-    <p>Sí, FisioNota emite las facturas con el formato que exige Verifactu.</p>
-    <h3>¿Para quién es?</h3>
-    <p>Para fisioterapeutas autónomos y consultas pequeñas de uno a tres profesionales en España.</p>
-    <h3>¿Puedo controlar los bonos de sesiones?</h3>
-    <p>Sí, se ven las sesiones usadas y las que quedan de cada bono.</p>
-    <h3>¿Puedo usar FisioNota ya?</h3>
-    <p>Todavía no. El servicio está en preparación y estamos comprobando si los fisioterapeutas lo necesitan.</p>
+    <div class="stack"><h2>Preguntas frecuentes</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>¿Qué incluye FisioNota?</h3><p>Historia clínica de cada paciente, agenda de citas con recordatorios y facturas y recibos Verifactu.</p></div>
+      <div class="split flip"><h3>¿Las facturas cumplen Verifactu?</h3><p>Sí, FisioNota emite las facturas con el formato que exige Verifactu.</p></div>
+      <div class="split flip"><h3>¿Para quién es?</h3><p>Para fisioterapeutas autónomos y consultas pequeñas de uno a tres profesionales en España.</p></div>
+      <div class="split flip"><h3>¿Puedo controlar los bonos de sesiones?</h3><p>Sí, se ven las sesiones usadas y las que quedan de cada bono.</p></div>
+      <div class="split flip"><h3>¿Puedo usar FisioNota ya?</h3><p>Todavía no. El servicio está en preparación y estamos comprobando si los fisioterapeutas lo necesitan.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Cuéntanos</h2>
-    <p><label>¿Cuántos fisioterapeutas sois en la consulta?<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— elige —</option><option>Trabajo solo</option><option>2–3</option><option>Más de 3</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Empezar</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Cuéntanos</h2>
+    </div>
+    <div class="tile stack">
+      <label>¿Cuántos fisioterapeutas sois en la consulta?<select data-ev-focus="form_start"><option value="">— elige —</option><option>Trabajo solo</option><option>2–3</option><option>Más de 3</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Empezar</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>FisioNota</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacidad</a></p>
-  <p class="muted">FisioNota organiza la historia clínica, la agenda y las facturas; el diagnóstico, el tratamiento y las obligaciones fiscales son responsabilidad del profesional.</p>
+  <p>FisioNota organiza la historia clínica, la agenda y las facturas; el diagnóstico, el tratamiento y las obligaciones fiscales son responsabilidad del profesional.</p>
 </div></footer>
 
 </body>
